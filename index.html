@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+
+    <header class="header-container flex justify-center">
+        <section class="header flex align-center justify-space-between">
+            <div class="logo">Blogin<span>.</span></div>
+            <ul class="main-nav clean-list flex">
+                <li><a href="#">Journal</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+            <section class="trigram" onclick="onTrigramClick(this)">
+                <svg class='trigram-icn' viewBox="0 0 512 512">
+                    <path
+                        d="M467 61H165c-24.82 0-45 20.19-45 45 0 24.82 20.18 45 45 45h302c24.81 0 45-20.18 45-45 0-24.81-20.19-45-45-45zM467 211H165c-24.82 0-45 20.19-45 45 0 24.82 20.18 45 45 45h302c24.81 0 45-20.18 45-45 0-24.81-20.19-45-45-45zM467 361H165c-24.82 0-45 20.19-45 45 0 24.82 20.18 45 45 45h302c24.81 0 45-20.18 45-45 0-24.81-20.19-45-45-45zM45 61C20.18 61 0 81.19 0 106c0 24.82 20.18 45 45 45 24.81 0 45-20.18 45-45 0-24.81-20.19-45-45-45zM45 211c-24.82 0-45 20.19-45 45 0 24.82 20.18 45 45 45 24.81 0 45-20.18 45-45 0-24.81-20.19-45-45-45zM45 361c-24.82 0-45 20.19-45 45 0 24.82 20.18 45 45 45 24.81 0 45-20.18 45-45 0-24.81-20.19-45-45-45z" />
+                </svg>
+                <a class="trigram-x">X</a>
+            </section>
+        </section>
+    </header>
+
+    <section class="nav-modal-container">
+        <div class="nav-modal-button">
+            <a>Journal</a>
+        </div>
+        <div class="nav-modal-button">
+            <a>About</a>
+        </div>
+        <div class="nav-modal-button">
+            <a>Products</a>
+        </div>
+        <div class="nav-modal-button">
+            <a>Contacts</a>
+        </div>
+    </section>
+
+
+    <main class="posts-container flex justify-center column">
+        <section class="post flex">
+            <img class="post-img" src="imgs/misterBlogger_01.jpg">
+            <div class="post-details flex column">
+                <h2>Duis aute irure dolor in henderit in vomptate.</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. <br>
+                    <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla
+                    pariatur...</p>
+                <div class="post-button">
+                    <a>Continue Reading</a>
+                    <img src="icns/icn_btn_arrow.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="post flex">
+            <img class="post-img" src="imgs/misterBlogger_02.jpg">
+            <div class="post-details flex column">
+                <h2>Duis aute irure dolor in henderit in vomptate.</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. <br>
+                    <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla
+                    pariatur...</p>
+                <div class="post-button">
+                    <a>Continue Reading</a>
+                    <img src="icns/icn_btn_arrow.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="post flex">
+            <img class="post-img" src="imgs/misterBlogger_03.jpg">
+            <div class="post-details flex column">
+                <h2>Duis aute irure dolor in henderit in vomptate.</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. <br>
+                    <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla
+                    pariatur...</p>
+                <div class="post-button">
+                    <a>Continue Reading</a>
+                    <img src="icns/icn_btn_arrow.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="page-scroll flex justify-space-between">
+            <div class="scroll-btn scroll-prev flex align-center">
+                <img src="icns/icn_arrow.png">
+                <h3>Previous</h3>
+            </div>
+            <div class="scroll-btn scroll-next flex align-center">
+                <h3>Next</h3>
+                <img src="icns/icn_arrow.png">
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer-container flex column align-center">
+        <div class="logo">Blogin<span>.</span></div>
+        <p class="coffeerights">© 2014 Blogin.com - All Rights Reserved - Find more free Templates
+            at<span> Pixelhint.com</span></p>
+        <div class="social-net flex align-center justify-space-between">
+            <div class="social-link flex align-center justify-center">
+                <img class="icn" src="icns/icn_facebook.png">
+            </div>
+            <div class="social-link flex align-center justify-center">
+                <img class="icn" src="icns/icn_twitter.png">
+            </div>
+            <div class="social-link flex align-center justify-center">
+                <img class="icn" src="icns/icn_be.png">
+            </div>
+            <div class="social-link flex align-center justify-center">
+                <img src="icns/icn_basketball.png">
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/blogin-controller.js"></script>
+
+</body>
+
+</html>
